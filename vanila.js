@@ -10,5 +10,7 @@ var x = [
     "test"
 ];
 
-console.log(x);
-console.log(car);
+
+
+console.log(x.toString());
+console.log(car.length);
