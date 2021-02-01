@@ -10,8 +10,13 @@ var x = [
     "test"
 ];
 
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
 
 var y = x.splice(2,0,"sayang","tak sayang");
-console.log(x);
-console.log(y);
-console.log(car);
+
+var points = [40, 100, 1, 5, 25, 10];
+
+points.sort( (a,b) => {return a-b} );
+console.log(points);
