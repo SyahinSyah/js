@@ -18,5 +18,13 @@ var y = x.splice(2,0,"sayang","tak sayang");
 
 var points = [40, 100, 1, 5, 25, 10];
 
-points.sort( (a,b) => {return a-b} );
+points.forEach(loop);
+
+function loop(value)
+{
+    var x = " " ;
+    console.log(x+value);
+ 
+}
+
 console.log(points);
