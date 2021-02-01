@@ -11,6 +11,6 @@ var x = [
 ];
 
 
-
-console.log(x.toString());
-console.log(car.length);
+x.push("sayang");
+console.log(x);
+console.log(car);
