@@ -24,7 +24,7 @@ function loop(value)
 {
     var x = " " ;
     console.log(x+value);
-    console.log(x); //test
+    console.log(x); //test //saya
 }
 
 console.log(points);
