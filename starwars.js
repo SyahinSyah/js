@@ -33,7 +33,7 @@ const characters = [
 // //Filter
 
 // const greater100characters = characters.filter( (character) => character.mass > 100 );
-// // console.log(greater100characters);
+// console.log(greater100characters);
 
 // const shorterCharacters = characters.filter( (character) => character.height <200 );
 // // console.log(shorterCharacters);
@@ -48,11 +48,11 @@ const characters = [
 // //Map
 
 // const allName =characters.map( (charater) => charater.name);
-// // console.log(allName);
+// console.log(allName);
 
 
 // const allHeigt =characters.map( (charater) => charater.height);
-// // console.log(allHeigt);
+// console.log(allHeigt);
 
 
 
@@ -71,8 +71,8 @@ const characters = [
 
 // //Some
 
-// const oneMaleCharacter = characters.some( (character ) => character.gender ==='male');
-// console.log(oneMaleCharacter);
+const oneMaleCharacter = characters.some( (character ) => character.gender ==='male');
+console.log(oneMaleCharacter);
 
 // const oneBlueCharacter = characters.some( (character) => character.eye_color ==='blue');
 // console.log(oneBlueCharacter);
@@ -145,11 +145,11 @@ const characters = [
 
 
 //EVERY
-const allBlueEyes = characters.every( (charater ) => {
-    return characters.eye_color === 'blue';
-});
+// const allBlueEyes = characters.every( (charater ) => {
+//     return characters.eye_color === 'blue';
+// });
 
-console.log(allBlueEyes);
+// console.log(allBlueEyes);
 
-const allmassmorethan40 = characters.every( (character) => character.mass >40 );
-console.log(allmassmorethan40);
+// const allmassmorethan40 = characters.every( (character) => character.mass >40 );
+// console.log(allmassmorethan40);
